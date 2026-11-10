@@ -1,0 +1,4 @@
+import { Git3 } from '@git3db/db';
+const db = new Git3();
+const tokens = db.collection('tokens');
+await tokens.add({ bot_name: 'my_bot', token: '8978569139:AAEPubs8Owu9hb1SUaAgkCcOslrpA2M3nOk' });
